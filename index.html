@@ -1,0 +1,670 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>本溪消防医院</title>
+<link href="css/header.css" type="text/css" rel="stylesheet" />
+<link href="css/footer.css" type="text/css" rel="stylesheet" />
+<link href="css/index.css" type="text/css" rel="stylesheet" />
+<script src="js/jquery-1.8.3.min.js" ></script>
+<script src="js/superslide.2.1.js"></script>
+<script src="js/index.js"></script>
+<script type="text/javascript" src="js/BreakingNews.js"></script>
+
+<!--tab切换-->
+<script type="text/javascript">
+	$(document).ready(function(){
+		var $tab_li = $('#tab ul li');
+		$tab_li.hover(function(){
+			$(this).addClass('selected').siblings().removeClass('selected');
+			var index = $tab_li.index(this);
+			$('div.tab_box > div').eq(index).show().siblings().hide();
+		});	
+	});
+</script>
+<script type="text/javascript">
+$(function(){
+	$('#breakingnews2').BreakingNews({
+		title: '',
+		titlebgcolor: '',
+		linkhovercolor: '',
+		border: '1px solid #c6c6c6',
+		timer: 4000,
+		effect: 'slide'	
+	});
+
+});
+</script>
+</head>
+
+<body>
+<!--头部开始-->
+<div class="header">
+	<div class="headerTop">
+    	<div class="logo"></div>
+        <a class="logotel" href="#"></a>
+    </div>
+</div>
+<!--头部结束-->
+<!--导航开始-->
+<div class="navWrap">
+    <div class="nav">	
+            <ul>
+                <li>
+                	<a href="index.html">医院首页</a>
+                </li>
+                 <li>
+                	<a href="about.html">医院简介</a>
+                </li>
+                 <li>
+                	<a href="rongyu.html">相关荣誉</a>
+                </li>
+                 <li>
+                	<a href="tese.html">特色诊疗</a>
+                </li>
+                 <li>
+                	<a href="zhuanjia.html">专家简介</a>
+                </li>
+                 <li>
+                	<a href="keshi.html">科室导航</a>
+                </li>
+                 <li>
+                	<a href="shebei.html">尖端设备</a>
+                </li>
+                 <li>
+                	<a href="huanjing.html">医院环境</a>
+                </li>
+                 <li>
+                	<a href="zhinan.html">医院指南</a>
+                </li>
+                 <li style="background:none;">
+                	<a href="contactUs.html">联系我们</a>
+                </li>
+            </ul>   
+    </div>
+</div>
+<!--导航结束-->
+<!--banner开始-->
+<div class="fullSlide">
+	<div class="bd">
+		<ul>
+			<li style="background:url(img/index/banner1.jpg) center center no-repeat; width:100%; background-size:cover;"></li>
+			<li style="background:url(img/index/banner2.jpg) center center no-repeat; width:100%; background-size:cover;"></li>
+            <li style="background:url(img/index/banner3.jpg) center center no-repeat; width:100%; background-size:cover;"></li>
+		</ul>
+	</div>
+	<!--<div class="hd"><ul></ul></div>-->
+</div>
+<!--banner结束-->
+<!--top开始-->
+<div class="top_tip">
+	<div class="tip">
+    <div class="bn-title2"></div>
+	<div class="BreakingNewsController easing" id="breakingnews2">
+		<div class="bn-title"></div>
+		<ul id="abc">
+			<li><a href="">1辽医保发【2015】29号 关于印发《辽宁省基本医疗保险有.....</a></li>
+            <li><a href="">2辽医保发【2015】29号 关于印发《辽宁省基本医疗保险有.....</a></li>
+            <li><a href="">3辽医保发【2015】29号 关于印发《辽宁省基本医疗保险有.....</a></li>
+            <li><a href="">4辽医保发【2015】29号 关于印发《辽宁省基本医疗保险有.....</a></li>
+		</ul>
+		<div class="bn-arrows"><span class="bn-arrows-left"></span><span class="bn-arrows-right"></span></div>	
+	</div>
+    </div>
+    <div class="search">
+      <input type="text" class="s_txt" value="请输入你要搜索的疾病" />
+      <input type="button" class="button" value="搜索" />
+    </div>
+</div>
+<!--top结束-->
+<!--科室简介开始-->
+<div class="main_01">
+	<div class="k_list">
+    	<div class="tit">内科</div>
+        <div class="k_con">
+        	<ul>
+            <li><a href="#">冠心病</a></li>
+            <li><a href="#">高血压</a></li>
+            <li><a href="#">糖尿病</a></li>
+            <li><a href="#">高血糖</a></li>
+            </ul>
+            <ul style="margin-left:40px;">
+            <li><a href="#">高血脂</a></li>
+            <li><a href="#">心肌梗塞</a></li>
+            <li><a href="#">上呼吸道感染</a></li>
+            <li><a href="#">气管炎</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="k_list">
+    	<div class="tit">妇科</div>
+        <div class="k_con">
+        	<ul>
+            <li><a href="#">无痛人流</a></li>
+            <li><a href="#">宫颈糜烂</a></li>
+            <li><a href="#">急慢性阴道炎</a></li>
+            </ul>
+            <ul>
+            <li><a href="#">盆腔炎</a></li>
+            <li><a href="#">附件炎</a></li>
+            <li><a href="#">不孕 育症</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="k_list">
+    	<div class="tit">外科</div>
+        <div class="k_con">
+        	<ul style="margin-left:10px;">
+            <li><a href="#">包皮包茎</a></li>
+            <li><a href="#">急慢性前列腺炎</a></li>
+            <li><a href="#">包皮龟头炎</a></li>
+            </ul>
+            <ul>
+            <li><a href="#">睾丸炎</a></li>
+            <li><a href="#">附睾炎</a></li>
+            <li><a href="#">性功能障碍</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="k_list">
+    	<div class="tit">微创外科</div>
+        <div class="k_con">
+        	<ul>
+            <li><a href="#">内痔</a></li>
+            <li><a href="#">外痔</a></li>
+            <li><a href="#">混合痔</a></li>
+            <li><a href="#">肛瘘</a></li>
+            <li><a href="#">肛裂</a></li>
+            </ul>
+            <ul style="margin-left:60px;">
+            <li><a href="#">肛周脓肿</a></li>
+            <li><a href="#">腋臭</a></li>
+            <li><a href="#">粉瘤感染</a></li>
+            <li><a href="#">脂肪瘤</a></li>
+            <li><a href="#">扁平疣</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="main_02">
+	<div class="m_02_left"><img src="img/index/index06.jpg" border="0" alt=""></div>
+    <div class="m_02_center">
+		<div class="m_anli_t">治愈案例</div>
+    	<div class="m_anli">
+        	<div><img src="img/index/index08.jpg"></div>
+            <div class="anli_tit"><a href="anli_detail.html">这么严重的肛周脓肿和肛瘘，张国君主任短短2个月就完全治......<span>【详细】</span></a></div>
+        </div>
+        <div class="m_hot">
+        	<div class="hot_tit"></div>
+            <div class="hot_con">
+            	<a href="#" class="hot_01">
+                	<div class="hot_img"><img src="img/index/index14.jpg" border="0" alt=""></div>
+                    <div class="hot_b">宫颈糜烂能治愈吗？</div>
+                </a>
+                <a  href="#" class="hot_01">
+                	<div class="hot_img"><img src="img/index/index15.jpg" border="0" alt=""></div>
+                    <div class="hot_b">宫颈糜烂能治愈吗？</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="m_02_right">
+    	<div class="td_tit">男性健康通道</div>
+        <div class="td_con">
+        	<div class="td_img_01"></div>
+            <div class="td_img">
+            	<div class="td_img_02"><a href="#"><img src="img/index/index10.jpg" border="0" alt=""></a></div>
+                <div class="td_img_02 mar8"><a href="#"><img src="img/index/index11.jpg" border="0" alt=""></a></div>
+            </div>
+            <div class="td_img">
+            	<div class="td_img_02"><a href="#"><img src="img/index/index12.jpg" border="0" alt=""></a></div>
+                <div class="td_img_02 mar8"><a href="#"><img src="img/index/index13.jpg" border="0" alt=""></a></div>
+            </div>
+        </div>
+        <div class="td_foot"></div>
+    </div>
+</div>
+<!--科室简介结束-->
+<!--科室导航开始-->
+<div class="main_03">
+	<div class="main_03_tit">
+    	<div class="tit_l">科室导航<span>/Departments navigation</span></div>
+        <a href="#" class="tit_r">more</a>
+    </div>
+    <div class="main_03_con">
+    	<div class="main_03_menu">
+        	<ul>
+            	<li><a href="#" class="cur">内&nbsp;&nbsp;科</a></li>
+                <li><a href="#">妇&nbsp;&nbsp;儿</a></li>
+                <li><a href="#">中&nbsp;&nbsp;医</a></li>
+                <li><a href="#">口&nbsp;&nbsp;腔</a></li>
+                <li><a href="#">理&nbsp;&nbsp;疗</a></li>
+                <li><a href="#">检&nbsp;&nbsp;验</a></li>
+                <li><a href="#">四维彩超室</a></li>
+                <li><a href="#">疼痛科</a></li>
+            </ul>
+        </div>
+        <div class="main_03_jb">
+            	<div class="mian_03_jb_sub_menu">
+                	<div class="cj_jb">常见疾病</div>
+                    <div class="cj_jb_list">
+                    	<ul>
+                        	<li>
+                            	<a href="#">冠心病</a>
+                            </li>
+                            <li>
+                            	<a href="#">高血压</a>
+                            </li>
+                            <li>
+                            	<a href="#">糖尿病</a>
+                            </li>
+                            <li>
+                            	<a href="#">心肌梗塞</a>
+                            </li>
+                            <li>
+                            	<a href="#">上呼吸道感染</a>
+                            </li>
+                            <li>
+                            	<a href="#">气管炎</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flog"></div>
+                    <div class="cj_jb" style="margin-top:20px;">对症咨询</div>
+                    <div class="cj_jb_list">
+                    	<ul>
+                        	<li>
+                            	<a href="#">气管炎</a>
+                            </li>
+                            <li>
+                            	<a href="#">糖尿病</a>
+                            </li>
+                            <li>
+                            	<a href="#">高血压</a>
+                            </li>
+                            <li>
+                            	<a href="#">高血糖</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mian_03_jb_con">
+                	<ul>
+                    	<li>
+                        	<a href="#">
+                            	<div class="jb_img"><img src="img/index/index19.jpg" border="0" alt=""></div>
+                                <div class="jb_tit">很多女性在得了肛肠疾病后都会遇...<span>[详细]</span></div>
+                            </a>
+                        </li>
+                        <li>
+                        	<a href="#">
+                            	<div class="jb_img"><img src="img/index/index20.jpg" border="0" alt=""></div>
+                                <div class="jb_tit">很多女性在得了肛肠疾病后都会遇...<span>[详细]</span></div>
+                            </a>
+                        </li>
+                        <li>
+                        	<a href="#">
+                            	<div class="jb_img"><img src="img/index/index21.jpg" border="0" alt=""></div>
+                                <div class="jb_tit">很多女性在得了肛肠疾病后都会遇...<span>[详细]</span></div>
+                            </a>
+                        </li>
+                        <li>
+                        	<a href="#">
+                            	<div class="jb_img"><img src="img/index/index22.jpg" border="0" alt=""></div>
+                                <div class="jb_tit">很多女性在得了肛肠疾病后都会遇...<span>[详细]</span></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+    <div class="main_03_foot"></div>
+</div>
+<div class="main_04">
+	<div class="main_04_l"></div>
+    <div class="main_04_r">
+    	<ul>
+        	<li>
+            	<a href="#">
+                	<div class="main_04_img"><img src="img/index/index25.jpg" border="0" alt=""></div>
+                    <div class="main_04_con">
+                    	<div class="title">肛周脓肿、肛瘘</div>
+                        <div class="con">这么严重的肛周脓肿和肛瘘，张国君主任短短2个月就完全治愈...<span>[详细]</span></div>
+                    </div>
+                </a>
+            </li>
+            <li>
+            	<a href="#">
+                	<div class="main_04_img"><img src="img/index/index25.jpg" border="0" alt=""></div>
+                    <div class="main_04_con">
+                    	<div class="title">肛周脓肿、肛瘘</div>
+                        <div class="con">这么严重的肛周脓肿和肛瘘，张国君主任短短2个月就完全治愈...<span>[详细]</span></div>
+                    </div>
+                </a>
+            </li>
+            <li>
+            	<a href="#">
+                	<div class="main_04_img"><img src="img/index/index25.jpg" border="0" alt=""></div>
+                    <div class="main_04_con">
+                    	<div class="title">肛周脓肿、肛瘘</div>
+                        <div class="con">这么严重的肛周脓肿和肛瘘，张国君主任短短2个月就完全治愈...<span>[详细]</span></div>
+                    </div>
+                </a>
+            </li>
+            <li>
+            	<a href="#">
+                	<div class="main_04_img"><img src="img/index/index25.jpg" border="0" alt=""></div>
+                    <div class="main_04_con">
+                    	<div class="title">肛周脓肿、肛瘘</div>
+                        <div class="con">这么严重的肛周脓肿和肛瘘，张国君主任短短2个月就完全治愈...<span>[详细]</span></div>
+                    </div>
+                </a>
+            </li>
+            <li>
+            	<a href="#">
+                	<div class="main_04_img"><img src="img/index/index25.jpg" border="0" alt=""></div>
+                    <div class="main_04_con">
+                    	<div class="title">肛周脓肿、肛瘘</div>
+                        <div class="con">这么严重的肛周脓肿和肛瘘，张国君主任短短2个月就完全治愈...<span>[详细]</span></div>
+                    </div>
+                </a>
+            </li>
+            <li>
+            	<a href="#">
+                	<div class="main_04_img"><img src="img/index/index25.jpg" border="0" alt=""></div>
+                    <div class="main_04_con">
+                    	<div class="title">肛周脓肿、肛瘘</div>
+                        <div class="con">这么严重的肛周脓肿和肛瘘，张国君主任短短2个月就完全治愈...<span>[详细]</span></div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--科室导航结束-->
+<!--科室专家开始-->
+<div class="main_03">
+	<div class="main_03_tit">
+    	<div class="tit_l">权威专家<span>/Experts</span></div>
+        <a href="#" class="tit_r">more</a>
+    </div>
+	<!--专家展示开始-->
+        <div class="box">
+            <div id="leftDir" class="leftDir1"></div>
+            <div id="demo" class="demo  demoa">	
+                <div id="indemo" class="indemo">   
+                    <div id="demo1" class="demo1">
+                        <div class="z_evey">
+                        	<div class="z_img"><img src="img/index/index28.jpg" border="0" alt=""></div>
+                            <div class="z_dec">
+                            	<div class="z_name">王明娟 中心主任</div>
+                                <a href="#" class="z_jianjie">王明娟，中华医学协会外科学分会会员，中国肛肠病研究院资深专家，辽宁省肛肠病名医工作室专家组成员，毕业于大连医科大学临床医...<span>【详细】</span></a>
+                                <div class="z_btns">
+                                	<a href="#" class="z_zx">咨询该医生</a>
+                                    <a href="#" class="z_yy">在线预约</a>
+                                </div>
+                            </div>
+                        </div>                
+                        <div class="z_evey">
+                        	<div class="z_img"><img src="img/index/index29.jpg" border="0" alt=""></div>
+                            <div class="z_dec">
+                            	<div class="z_name">王明娟 中心主任</div>
+                                <a href="#" class="z_jianjie">王明娟，中华医学协会外科学分会会员，中国肛肠病研究院资深专家，辽宁省肛肠病名医工作室专家组成员，毕业于大连医科大学临床医...<span>【详细】</span></a>
+                                <div class="z_btns">
+                                	<a href="#" class="z_zx">咨询该医生</a>
+                                    <a href="#" class="z_yy">在线预约</a>
+                                </div>
+                            </div>
+                        </div>              
+                         <div class="z_evey">
+                        	<div class="z_img"><img src="img/index/index30.jpg" border="0" alt=""></div>
+                            <div class="z_dec">
+                            	<div class="z_name">张万龙 中心主任</div>
+                                <a href="#" class="z_jianjie">张万龙，中华医学协会外科学分会会员，中国肛肠病研究院资深专家，辽宁省肛肠病名医工作室专家组成员，毕业于大连医科大学临床医...<span>【详细】</span></a>
+                                <div class="z_btns">
+                                	<a href="#" class="z_zx">咨询该医生</a>
+                                    <a href="#" class="z_yy">在线预约</a>
+                                </div>
+                            </div>
+                        </div>     
+                    </div>   
+                    <div id="demo2" class="demo2"></div>
+                </div>	
+            </div>
+            <div id="rightDir" class="rightDir1"></div>
+		</div> 
+</div>
+
+<!--科室专家结束-->
+<!--医院环境开始-->
+<div class="main_03">
+	<div class="main_03_tit">
+    	<div class="tit_l">医院环境<span>/Eospital environment</span></div>
+        <a href="#" class="tit_r">more</a>
+    </div>
+	<div class="h_con">
+    	<a href="huanjing.html">
+        	<div class="h_img_01">
+            	<div class="h_img"><img src="img/index/index34.jpg" border="0" alt=""></div>
+                <div class="h_img"><img src="img/index/index37.jpg" border="0" alt=""></div>
+                <div class="h_img"><img src="img/index/index39.jpg" border="0" alt=""></div>
+            </div>
+            <div class="h_img_02">
+            	<div class="h_img_t"></div>
+            	<div class="h_img_c1"><img src="img/index/index36.jpg" border="0" alt=""></div>
+                <div class="h_img_c2">
+                	<div class="z_img"><img src="img/index/index40.jpg" border="0" alt=""></div>
+                    <div class="z_img" style="margin-left:6px;"><img src="img/index/index41.jpg" border="0" alt=""></div>
+                </div>
+            </div>
+            <div class="h_img_03">
+            	<div class="h_img"><img src="img/index/index34.jpg" border="0" alt=""></div>
+                <div class="h_img"><img src="img/index/index37.jpg" border="0" alt=""></div>
+                <div class="h_img"><img src="img/index/index39.jpg" border="0" alt=""></div>
+            </div>
+            </a>
+    </div>
+</div>
+
+<!--医院环境结束-->
+<div class="main_05">
+	<a href="#" class="tit_r">more</a>
+	<div class="mainbd">
+    	<div id="tab" style="width:990px;">
+                <ul class="tab_menu" style="margin-left:5px;">
+                    <li class="selected">医院荣誉</li>
+                    <li>权威认证</li>
+                    <li>尖端设备</li>
+                </ul>
+                <div class="tab_box" style="height:150px; width:988px;">
+                    <div>
+                    	<div class="box1">
+            				<div id="leftDir1" class="leftDir2"></div>
+                            <div id="demo4" class="demo  demob" style="width:950px;">	
+                                <div id="indemo" class="indemo">   
+                                    <div id="demo5" class="demo1">
+                                        <a href="#">
+                                            <img src="img/index/index43.jpg" border="0" alt=""/>
+                                        </a>                
+                                         <a href="#">
+                                             <img src="img/index/index44.jpg" border="0" alt=""/>
+                                        </a>            
+                                         <a href="#">
+                                            <img src="img/index/index43.jpg" border="0" alt=""/>
+                                        </a>                
+                                         <a href="#">
+                                             <img src="img/index/index44.jpg" border="0" alt=""/>
+                                        </a>
+                                        <a href="#">
+                                            <img src="img/index/index43.jpg" border="0" alt=""/>
+                                        </a>                
+                                         <a href="#">
+                                             <img src="img/index/index44.jpg" border="0" alt=""/>
+                                        </a>
+                                        <a href="#">
+                                            <img src="img/index/index43.jpg" border="0" alt=""/>
+                                        </a>                
+                                         <a href="#">
+                                             <img src="img/index/index44.jpg" border="0" alt=""/>
+                                        </a>                    
+                                    </div>   
+                                    <div id="demo6" class="demo2"></div>
+                                </div>	
+                            </div>
+            				<div id="rightDir2" class="rightDir2"></div>
+						</div>
+                    </div>
+                    <div class="hide">          
+                    	<div class="box1">
+            				<div id="leftDir3" class="leftDir3"></div>
+                            <div id="demo7" class="demo  demob" style="width:950px;">	
+                                <div id="indemo" class="indemo">   
+                                    <div id="demo8" class="demo1">
+                                        <a href="#">
+                                            <img src="img/index/index43.jpg" border="0" alt=""/>
+                                        </a>                
+                                         <a href="#">
+                                             <img src="img/index/index44.jpg" border="0" alt=""/>
+                                        </a>            
+                                         <a href="#">
+                                            <img src="img/index/index43.jpg" border="0" alt=""/>
+                                        </a>                
+                                         <a href="#">
+                                             <img src="img/index/index44.jpg" border="0" alt=""/>
+                                        </a>
+                                        <a href="#">
+                                            <img src="img/index/index43.jpg" border="0" alt=""/>
+                                        </a>                
+                                         <a href="#">
+                                             <img src="img/index/index44.jpg" border="0" alt=""/>
+                                        </a>
+                                        <a href="#">
+                                            <img src="img/index/index43.jpg" border="0" alt=""/>
+                                        </a>                
+                                         <a href="#">
+                                             <img src="img/index/index44.jpg" border="0" alt=""/>
+                                        </a>                                   
+                                    </div>   
+                                    <div id="demo9" class="demo2"></div>
+                                </div>	
+                            </div>
+            				<div id="rightDir4" class="rightDir2"></div>
+						</div>                   
+                    </div>
+                    <div class="hide">          
+                    	<div class="box1">
+            				<div id="leftDir5" class="leftDir3"></div>
+                            <div id="demo10" class="demo  demob" style="width:950px;">	
+                                <div id="indemo" class="indemo">   
+                                    <div id="demo11" class="demo1">
+                                        <a href="#">
+                                            <img src="img/index/index43.jpg" border="0" alt=""/>
+                                        </a>                
+                                         <a href="#">
+                                             <img src="img/index/index44.jpg" border="0" alt=""/>
+                                        </a>            
+                                         <a href="#">
+                                            <img src="img/index/index43.jpg" border="0" alt=""/>
+                                        </a>                
+                                         <a href="#">
+                                             <img src="img/index/index44.jpg" border="0" alt=""/>
+                                        </a>
+                                        <a href="#">
+                                            <img src="img/index/index43.jpg" border="0" alt=""/>
+                                        </a>                
+                                         <a href="#">
+                                             <img src="img/index/index44.jpg" border="0" alt=""/>
+                                        </a>
+                                        <a href="#">
+                                            <img src="img/index/index43.jpg" border="0" alt=""/>
+                                        </a>                
+                                         <a href="#">
+                                             <img src="img/index/index44.jpg" border="0" alt=""/>
+                                        </a>                                   
+                                    </div>   
+                                    <div id="demo12" class="demo2"></div>
+                                </div>	
+                            </div>
+            				<div id="rightDir5" class="rightDir2"></div>
+						</div>                   
+                    </div>
+                </div>
+		</div>
+    </div>
+</div>
+<div class="footer">
+	<div class="footerWrap">
+    	<div class="foot_logo"></div>
+        <div class="footer_con">
+            <div class="footerLeft">
+                <div class="l_01">
+                   <h1>内科疾病</h1>
+                   <ul>
+                    <li><a href="#">冠心病</a></li>
+                    <li><a href="#">高血压</a></li>
+                    <li><a href="#">糖尿病</a></li>
+                    <li><a href="#">高血脂</a></li>
+                    <li><a href="#">心肌梗塞</a></li>
+                    <li><a href="#">上呼吸道感染</a></li>
+                    <li><a href="#">气管炎</a></li>
+                   </ul>
+                </div>
+                <div class="l_01">
+                   <h1>妇科疾病</h1>
+                   <ul>
+                    <li><a href="#">无痛人流</a></li>
+                    <li><a href="#">宫颈糜烂</a></li>
+                    <li><a href="#">急慢性阴道炎</a></li>
+                    <li><a href="#">盆腔炎</a></li>
+                    <li><a href="#">附件炎</a></li>
+                    <li><a href="#">不孕不育症</a></li>
+                   </ul>
+                </div>
+                <div class="l_01">
+                   <h1>外科疾病</h1>
+                   <ul>
+                    <li><a href="#">包皮包茎</a></li>
+                    <li><a href="#">急慢性前列腺炎</a></li>
+                    <li><a href="#">包皮龟头炎</a></li>
+                    <li><a href="#">睾丸炎</a></li>
+                    <li><a href="#">附睾炎</a></li>
+                    <li><a href="#">性功能障碍</a></li>
+                   </ul>
+                </div>
+                <div class="l_01">
+                   <h1>理疗科</h1>
+                   <ul>
+                    <li><a href="#">颈椎病</a></li>
+                    <li><a href="#">腰椎间盘突出</a></li>
+                    <li><a href="#">肩周炎</a></li>
+                    <li><a href="#">风湿性关节炎</a></li>
+                    <li><a href="#">腰肌劳损</a></li>
+                    <li><a href="#">中药熏蒸</a></li>	
+                   </ul>
+                </div>
+                <div class="l_01">
+                   <h1>中医科</h1>
+                   <ul>
+                    <li><a href="#">失眠多梦</a></li>
+                    <li><a href="#">盗汗</a></li>
+                    <li><a href="#">自汗</a></li>
+                    <li><a href="#">顽固性头痛</a></li>
+                    <li><a href="#">腰椎间盘突出</a></li>
+                    <li><a href="#">中风</a></li>
+                    <li><a href="#">面瘫</a></li>
+                   </ul>
+                </div>
+            </div>
+            <div class="footerRight">
+                <div class="e_tel">
+                	<div class="l_con"><img src="img/index/index49.jpg" border="0" alt=""></div>
+                    <div class="r_con"><img src="img/index/index50.png" border="0" alt=""></div>
+                </div>
+                <div class="mes">门诊时间：周一至周日 8:00-20:00</div>
+                <div class="mes">医院地址：本溪市明山区消防路175号</div>
+            </div>
+        </div>
+    </div>    
+</div>
+</body>
+</html>
